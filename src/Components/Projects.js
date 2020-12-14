@@ -1,8 +1,6 @@
 import React from "react";
 import "./Projects.css";
 import {IoIosArrowRoundBack, IoIosArrowRoundForward} from 'react-icons/io';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import { Paper } from '@material-ui/core';
 
 const Projects = () => {
