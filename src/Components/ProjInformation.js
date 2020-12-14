@@ -1,13 +1,5 @@
 import React from "react";
 
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-
 import { FaProjectDiagram } from 'react-icons/fa';
 import { BsFillGrid3X2GapFill } from 'react-icons/bs';
 import { IoIosBuild } from 'react-icons/io';
@@ -37,7 +29,7 @@ const ProjectsInfo = () => {
     return (
             <div className="projectInfo-container">
                 <h4>Showscape - Visual Design Lead</h4>
-                <img src={ShowscapeMain} />
+                <img src={ShowscapeMain} alt="Showscape Prototype Hall View"/>
                 <div className="summary">
                     <p className="headings">Project Brief</p>
                      
@@ -138,25 +130,25 @@ const ProjectsInfo = () => {
                 <p className="headings">Solution</p>
                 <p><strong>1. Capability to choose party size</strong> gives audience members the flexibility of viewing by themselves in a larger audience 
                 and with a desired group</p>
-                <img src={SelectPartyNumber}/>
+                <img src={SelectPartyNumber} alt="Showscape Prototype Select Party View"/>
                 <p><strong>2. Group invites</strong> gives audience members more intimate experiences they desire with their friends and family </p>
-                <img src={SelectParty}/>
+                <img src={SelectParty} alt="Showscape Prototype Select Party Size"/>
                 <div className="solution-group">
                     <div className="solution-item">
                         <p><strong>3. Adjustable personal settings</strong> ensure that technology is functioning correctly, and preserves privacy of audience members</p>
-                        <img src={IndividualSettings}/>
+                        <img src={IndividualSettings} alt="Showscape Prototype Individual Settings"/>
                     </div>
                     <div className="solution-item">
                         <p><strong>Adjustable group settings</strong> allow each individual control over people (ie muting a distracting person) in their group and 
                         their visibility to the public</p>
-                        <img src={GroupSettings}/>
+                        <img src={GroupSettings} alt="Showscape Prototype Group Settings"/>
                     </div>
                 </div>
                 <p><strong>4. Theater View</strong> mimics in person experience of seeing many other audience members, but also provides the option to enlarge the content. 
                 Audiences can show their support for artists with <strong>reactions</strong> or through <strong>donations and buying a virtual rose. </strong></p>
-                <img src={AudienceScreen}/>
+                <img src={AudienceScreen} alt="Showscape Prototype Audience Screen"/>
                 <p><strong>5. Artist controls</strong> include highly customizable performance set-up options that give performers the ability to shape how their content is presented. </p>
-                <img src={ArtistScreen}/>
+                <img src={ArtistScreen} alt="Showscape Prototype Artist Screen"/>
                 <p>These features all help bring artists and audiences closer together and 
                     back into a more familiar context. Through our platform, we believe users can enjoy the theater experience at 
                     home.</p>

@@ -5,7 +5,7 @@ import Routes from './appRoutes'
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Projects from './Components/Projects';
+//import Projects from './Components/Projects';
 import ProjectsInfo from './Components/ProjInformation';
 import Error from './Components/Error';
 import './App.css';

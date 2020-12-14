@@ -5,7 +5,7 @@ import me from "../img/eileen.png";
 const About = () => {
     return (
         <div className="description">
-            <img src={me}></img>
+            <img src={me} alt="Picture of Eileen"></img>
             <p>Hi, it's so nice to meet you! 
                     I'm a senior studying Cognitive Science and Human Computer Interaction at Carnegie Mellon University. 
                     I'm interested in creating experiences that leave happy memories with people who interact with my work. 
