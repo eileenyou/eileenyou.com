@@ -18,7 +18,7 @@ const Nav = () => {
                 <h2>/</h2>
                 <h2><a href={Routes.projects}>projects</a></h2>
                 <h2>/</h2>
-                <h2><a href={Resume} target = "_blank">resume</a></h2>
+                <h2><a href={Resume} target="_blank" rel="noreferrer">resume</a></h2>
             </div>
         </div>
     );
