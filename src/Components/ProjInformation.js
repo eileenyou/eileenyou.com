@@ -19,13 +19,6 @@ import SelectPartyNumber from '../img/SelectPartyNumber.png';
 import "./Projects.css";
 
 const ProjectsInfo = () => {
-    function createData(name, pos1, pos2, pos3, pos4, pos5) {
-        return { name, pos1, pos2, pos3, pos4, pos5 };
-      }
-    const rows = [
-        createData('Position', "Interview Lead", "Project Manager", "Presentation Lead", "Prototyping Lead", "Usability Lead")
-      ];
-
     return (
             <div className="projectInfo-container">
                 <h4>Showscape - Visual Design Lead</h4>
