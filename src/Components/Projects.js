@@ -103,7 +103,7 @@ const Projects = () => {
         <Tab {...a11yProps(0)} 
             component={()=> <Button onClick={()=> setValue(0)} className={classes.tab} >
                             <div className={classes.content}>
-                                <img src={Apple} />
+                                <img src={Apple} alt="Apple Logo"/>
                                 <p>siri</p>
                             </div>
                             </Button>}
@@ -129,7 +129,7 @@ const Projects = () => {
         <Tab label="Item Four" {...a11yProps(1)} 
             component={()=> <Button onClick={()=> setValue(1)} className={classes.tab} >
                             <div className={classes.content}>
-                                <img src={ShowscapeMain}/>
+                                <img src={ShowscapeMain}  alt="Showscape Logo"/>
                                 <p>showscape</p>
                             </div>
                             </Button>}
@@ -137,7 +137,7 @@ const Projects = () => {
         <Tab label="Item Five" {...a11yProps(2)} 
             component={()=> <Button onClick={()=> setValue(2)} className={classes.tab} >
                             <div className={classes.content}>
-                                <img src={AtlantisHub}/>
+                                <img src={AtlantisHub}  alt="Atlantis Logo"/>
                                 <p>atlantis hub</p>
                             </div>
                             </Button>}
@@ -145,7 +145,7 @@ const Projects = () => {
         <Tab label="Item Six" {...a11yProps(3)} 
             component={()=> <Button onClick={()=> setValue(3)} className={classes.tab} >
                             <div className={classes.content}>
-                                <img src={Moon} />
+                                <img src={Moon}  alt="Artwork Logo"/>
                                 <p>artwork</p>
                             </div>
                             </Button>}
@@ -153,7 +153,7 @@ const Projects = () => {
         <Tab label="Item Seven" {...a11yProps(4)}
             component={()=> <Button onClick={()=> setValue(4)} className={classes.tab} >
                             <div className={classes.content}>
-                                <img src={MembershipCard}/>
+                                <img src={MembershipCard}  alt="CMBDC Logo"/>
                                 <p>public relations</p>
                             </div>
                             </Button>}
