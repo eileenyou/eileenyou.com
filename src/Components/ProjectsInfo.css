@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+img {
+    width: 60%;
+}
+
+.group-img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.group-img .title-img {
+    width: 30% !important;
+    margin-right: 30px;
+}
+
+.group-img .content-img {
+    width: 50% !important;
+    margin-right: 30px;
+}
+
+.artwork {
+    height: 1900px;
+    margin: 40px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.artwork img {
+    width: 20% !important;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    box-shadow: 0px 0px 5px #8d8d8d;
+}
+
+.projectInfo {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectInfo p, h4, li {
+    font-family: 'Dosis', sans-serif;
+}
+
+.summary img {
+    width: 90%;
+    padding: 20px 0px;
+}
+
+.summary {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roles {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.roles-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.roles-icon p {
+    text-align: center;
+}
+
+.methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.methods-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.methods-icon p {
+    text-align: center;
+}
+
+.evidence {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.headings {
+    margin-top: 60px;
+}
+
+.insights {
+    display: flex;
+    flex-direction: column;
+}
+
+.insights-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insights-icon p {
+    width: 60%;
+    padding: 5px 20px;
+}
+
+.solution-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.solution-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MuiPaper-root {
+    width: 40%;
+}
+
+.concept-sketches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concept-sketches img {
+    width: 40%;
+    padding: 10px 10px;
+}
+
+.concept-sketches div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

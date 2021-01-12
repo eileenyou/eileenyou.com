@@ -5,8 +5,8 @@ import Routes from './appRoutes'
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
 import About from './Components/About';
-//import Projects from './Components/Projects';
-import ProjectsInfo from './Components/ProjInformation';
+import Projects from './Components/Projects';
+//import ProjectsInfo from './Components/ProjInformation';
 import Error from './Components/Error';
 import './App.css';
 
@@ -16,7 +16,7 @@ const App = () => {
       <Nav />
       <Switch>
         <Route exact path={Routes.home} component={About} />
-        <Route exact path={Routes.projects} component={ProjectsInfo} />
+        <Route exact path={Routes.projects} component={Projects} />
         <Route path='*' component={Error} />
       </Switch>
       <Footer />

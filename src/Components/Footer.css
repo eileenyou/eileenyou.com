@@ -1,21 +1,30 @@
 .footer {
-    width: 80%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: baseline;
-    margin-left: 10%;
+    align-items: center;
 }
 
 .footer p {
     font-family: 'lato', sans-serif;
-    font-weight: 100;
-    text-align: end;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555555;
 }
 
 .social {
-    width: 100px;
+    width: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social a {
+    color: black;
+}
+
+.social a:hover {
+    transform: scale(1.2);
 }

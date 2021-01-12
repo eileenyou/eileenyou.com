@@ -4,15 +4,18 @@ body {
 }
 
 .description img {
-    width: 200px;
-    border-radius: 200px;
+    width: 210px;
+    border-radius: 10px;
 }
 
-.description p {
+.bio {
     width: 50%;
     margin-left: 8%;
-    font-size: 1rem;
-    font-family: 'Dosis', sans-serif;
+}
+
+.bio blockquote {
+    border-left: 1px solid rgb(131, 131, 131);
+    padding: 0px 10px;
 }
 
 .description {
@@ -21,6 +24,20 @@ body {
     flex-direction: row;
     align-items: center;
     margin-left: 25%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+.description {
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.propic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgb(131, 131, 131);
+} 
