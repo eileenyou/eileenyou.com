@@ -55,14 +55,25 @@ const Siri = () => {
                         <p>Pitching</p>
                     </div>
                 </div>
+                <p className="headings">Background Research</p>
+                    <p>Prior to beginning the internship, I read <i>Designing Voice User Interfaces: Principles of Conversational Experiences</i> by Cathy Pearl 
+                    to understand proper methods and pitfalls in designing conversational experiences. I also watched video seminars on the purpose of Siri CI, and on
+                    how Siri works from an engineering standpoint. I connected with everyone on the CI team (around 50 people), consisting of VUI designers, prototypers,
+                    design producers, and UX writers. </p>
+
                 <p className="headings">Insights</p>
                 <div className="insights">
-                    <p>Through reading extra material and meeting up with everyone on the CI team (around 50 people), I learned about the niches of conversational agents,
-                        and based my prototypes off of these insights:
+                    <p>Through my background research, I learned about the niches of conversational agents, and based my prototypes off of these insights:
                     </p>
                     <div className="insights-icon">
                         <HiLightBulb size={30}/>
-                        <p>When conversing with Siri, there are many minor <strong>technical details</strong> that need to be considered, like whether to include a trigger phrase or how to perform endpoint detection  
+                        <p>When Siri is paired with other devices, it has an amazing <strong>ability to interface with the world without occupying a user's sight</strong>. Freeing up vision 
+                            can allow users to more deeply engage with people, places, and objects in real life instead of their phones  
+                        </p>
+                    </div>
+                    <div className="insights-icon">
+                        <HiLightBulb size={30}/>
+                        <p>When conversing with Siri, there are many crucial <strong>technical details</strong> that need to be considered, like whether to include a trigger phrase or how to perform endpoint detection  
                         </p>
                     </div>
                     <div className="insights-icon">
@@ -72,22 +83,43 @@ const Siri = () => {
                     </div>
                     <div className="insights-icon">
                         <HiLightBulb size={30}/>
-                        <p>Due to the nature of conversation (its intangibility), it's integral to design interactions with Siri to be <strong>structured</strong> enough that the user can respond
+                        <p>Due to the nature of conversation (its intangibility), interactions with Siri must be <strong>structured</strong> enough that the user can respond
                             with ease but <strong>natural</strong> enough that the interaction doesn't seem contrived</p>
                     </div>
-                    <div className="insights-icon">
-                        <HiLightBulb size={30}/>
-                        <p>When Siri is paired with other devices, it has an amazing <strong>ability to interface with the world without occupying a user's sight</strong>. Freeing up vision 
-                            can allow users to more deeply engage with people, places, and objects in real life instead of their phones  
-                        </p>
-                    </div>
                 </div>
-                <p className="headings">Solution</p>
-                    <p>With these insights, I came up with several scenarios to pitch to my team in the form of <strong>storyboards</strong>. My team was mainly software engineers, and they were figuring out how to 
-                    communicate in a visual manner that clearly showed the intentions of an idea. The storyboards were an easy way to do so.
+
+                <p className="headings">Mind Mapping and Storyboarding</p>
+                <p>From these initial insights, I started organizing all my initial ideas on a Kanban board by interaction style and purpose. For example, 'Spatial Audio'
+                    would define a realm of ideas where Siri employs sound in space to help the user perform different tasks like 
+                    <ul>
+                        <li>directing attention to signs in an airport, </li>
+                        <li>giving directions while driving,</li>
+                        <li>or highlighting points of interest in tourism or exploring.</li>
+                    </ul>
+                    Another example was 'Lifestyle', which defines ideas like 
+                    <ul>
+                        <li>allowing Siri to communicate with a healthcare provider and monitor important numbers like cholesterol, blood pressure, or bmi,</li>
+                        <li>shifting across devices inside the house to perform tasks like waking the kids up or reminding the user about forgotten items on their way out,</li>
+                        <li>or even becoming an athletic trainer in the user's ear.</li>
+                    </ul>
+                    There were several other categories, all of which I attempted to cover a breadth of ideas before diving into a select few.
                     <br></br><br></br>
-                    After <strong>extensive feedback</strong>, I began to build an app in Swift and JavaScript that allowed me to create two prototypes. These prototypes were not Siri-centered interactions,
-                    but rather human interactions that Siri helped to facilitate or aid as an assistant. 
+                    After consulting with designers and receiving feedback, I took three ideas and created <strong>storyboards</strong> of scenarios that highlighted the use case to pitch to my team. My team was mainly software engineers, and they were figuring out how to 
+                    communicate in a visual manner that clearly showed the intentions of an idea. The storyboards were an easy way to do so.
+                </p>
+
+                <p className="headings">Solution</p>
+                    <p>
+                    After <strong>extensive feedback</strong>, I narrowed my focus to two ideas:
+                    <ol>
+                        <li>How might Siri bridge the language and cultural gap between people when communicating in different languages without a screen</li>
+                        <li>How might Siri improve the experience of exploring and deepen the historical and cultural appreciation of a new place without a screen</li>
+                    </ol>
+                    These two ideas naturally appealed to me because they have the potential to place users back into the material world while still offering the benefits
+                    of technology. Furthermore, they have a profound ability to affect the <strong>relationships people have with each other and the world</strong> , and not simply people to screen interactions. 
+                    <br></br><br></br>
+                    I began to build a web app in Swift and JavaScript that allowed me to simulate the user talking with Siri in any part of the world, in any language, using the Google Maps SDK, Text-to-Speech, and Automatic Speech Recognition tools. 
+                    These prototypes were not Siri-centered interactions, but rather human interactions that Siri helped to facilitate or aid as an assistant. 
                     <br></br><br></br>
                     I continued to consult with the designers, who were intimately familiar with the features and capabilities of the specific devices I was working on, and my manager who provided 
                     guidance on coding and big picture usage. 
