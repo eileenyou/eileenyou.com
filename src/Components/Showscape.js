@@ -16,6 +16,11 @@ import GroupSettings from '../img/GroupSettings.png';
 import IndividualSettings from '../img/IndividualSettings.png';
 import SelectParty from '../img/SelectParty.png';
 import SelectPartyNumber from '../img/SelectPartyNumber.png';
+import ShowscapeData from '../img/ShowscapeData.png';
+import ShowscapeAffinity from '../img/ShowscapeAffinity.png';
+import ShowscapeAffinity2 from '../img/ShowscapeAffinity2.png';
+import ShowscapeWalkWall from '../img/ShowscapeWalkWall.png';
+import ShowscapeStoryboard from '../img/ShowscapeStoryboard.png';
 import "./ProjectsInfo.css";
 
 const Showscape = () => {
@@ -28,7 +33,7 @@ const Showscape = () => {
                      
                     <p>Our current situation has changed the landscape for performing arts across the world. 
                         With less freedom to leave our homes, our team found it particularly compelling to explore 
-                        <strong> how we might be able to transform the physical theater experience into a shared online experience</strong> 
+                        <strong> how we might be able to transform the physical theater experience into a shared online experience </strong> 
                         for the Kelly Strayhorn Theater in Pittsburgh.
                         <br/><br/>
                         Showscape is a virtual platform concept that reinvents theater-going online. The goal of this 
@@ -61,7 +66,7 @@ const Showscape = () => {
                     </div>
                 <p className="headings">Problem</p>
                     <p>The pandemic has rendered artists unable to make a living, and restricted their access to their audience.  
-                    <strong> Virtual settings fail to deliver the same quality experience</strong>for performing and viewing as a live space would.
+                    <strong> Virtual settings fail to deliver the same quality experience </strong>for performing and viewing as a live space would.
                         How do we transform a physical theater experience into a shared online experience?
                     </p>
                 <p className="headings">Methods</p>
@@ -83,6 +88,13 @@ const Showscape = () => {
                         <p>Experience Prototyping</p>
                     </div>
                 </div>
+                <p>Our group began by collecting data provided by KST on their marketing methods and types of performances enjoyed by theater-goers. Our main takeaways
+                    were that marketing was largely passed by word-of-mouth and social media. However we noticed a trend of increasing press influences due to COVID-19.
+                    In terms of performance preferences, many of the responders wanted more music and dance performances. With social distances practices, KST has more
+                    TV/film like content that can be streamed virtually.
+                </p>
+                <img src={ShowscapeData} alt="Showscape Data Collection"/>
+
                 <p className="headings">Evidence (Quotes)</p>
                 <div className="evidence">
                     <div className="quote">
@@ -101,7 +113,12 @@ const Showscape = () => {
                             to interact only with my own party or only with other people</p>
                     </div>
                 </div>
-                
+
+                <p> After gathering data and conducting interviews, our group jotted down every insight we could think of and began searching for emerging themes. 
+                </p>
+                <img src={ShowscapeAffinity} alt="Showscape Affinity Diagram"/>
+                <img src={ShowscapeAffinity2} alt="Showscape Affinity Diagram"/>
+
                 <p className="headings">Insights</p>
                 <div className="insights">
                     <div className="insights-icon">
@@ -120,7 +137,18 @@ const Showscape = () => {
                         </p>
                     </div>
                 </div>
+
+                <p></p>
+                
+                <p>With these insights, we each formulated storyboards that highlighted situations we believed needed to be addressed in our solution.
+                    To stay on the same page as all the group members, we did a walk the wall activity where we each went around sharing our ideas and 
+                    finding overlapping and important needs.
+                </p>
+                <img src={ShowscapeStoryboard} alt="Showscape Storyboards"/>
+                <img src={ShowscapeWalkWall} alt="Showscape Walk the Wall Activity"/>
+
                 <p className="headings">Solution</p>
+                <p>We created a prototype of an online viewing platform using Figma that addressed our insights and user needs explained below. </p>
                 <p><strong>1. Capability to choose party size</strong> gives audience members the flexibility of viewing by themselves in a larger audience 
                 and with a desired group</p>
                 <img src={SelectPartyNumber} alt="Showscape Prototype Select Party View"/>

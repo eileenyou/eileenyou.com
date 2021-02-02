@@ -16,7 +16,7 @@ const Siri = () => {
                 <div className="summary">
                     <p>I worked with designers and managers under Siri's Conversational Interaction (CI) team to code and create two prototypes for future 
                         cross-platform interactions that users could share with Siri. The premise of my project was completely open ended. The constraints 
-                        were simply to create interactions using two devices and Siri.
+                        were simply to create interactions using <strong>two wearable devices and Siri</strong>.
                         <br></br><br></br>
                         Due to the NDA, I cannot specifically delve into the details of the project. However, I'd like to give insight into my approach and
                         thought process. 
