@@ -6,6 +6,9 @@ import { GiMagnifyingGlass } from "react-icons/gi";
 import { IoIosBuild } from 'react-icons/io';
 import { HiLightBulb, HiSpeakerphone } from 'react-icons/hi';
 
+import Exploring from '../img/Health.png';
+import Alert from '../img/Alert.png';
+import Health from '../img/Health.png';
 
 import "./ProjectsInfo.css";
 
@@ -107,6 +110,12 @@ const Siri = () => {
                     After consulting with designers and receiving feedback, I took three ideas and created <strong>storyboards</strong> of scenarios that highlighted the use case to pitch to my team. My team was mainly software engineers, and they were figuring out how to 
                     communicate in a visual manner that clearly showed the intentions of an idea. The storyboards were an easy way to do so.
                 </p>
+                <p>#1</p>
+                <img src={Exploring} alt="Siri helping user explore"/>
+                <p>#2</p>
+                <img src={Alert} alt="Siri alerting user in car"/>
+                <p>#3</p>
+                <img src={Health} alt="Siri monitoring health of user"/>
 
                 <p className="headings">Solution</p>
                     <p>
