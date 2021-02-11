@@ -6,7 +6,7 @@ import { GiMagnifyingGlass } from "react-icons/gi";
 import { IoIosBuild } from 'react-icons/io';
 import { HiLightBulb, HiSpeakerphone } from 'react-icons/hi';
 
-import Exploring from '../img/Health.png';
+import Exploring from '../img/Exploring.png';
 import Alert from '../img/Alert.png';
 import Health from '../img/Health.png';
 
